@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<querylist>
+	<query name="Номенклатура">
+		<text>ВЫБРАТЬ
+	Склады.Наименование КАК Наименование
+ИЗ
+	Справочник.Склады КАК Склады
+ГДЕ
+	НЕ Склады.Ссылка В
+				(ВЫБРАТЬ
+					ПоступлениеТоваров.Склад
+				ИЗ
+					Документ.ПоступлениеТоваров КАК ПоступлениеТоваров)
+</text>
+		<textSQL>
+
+		</textSQL>
+		<planSQL>
+
+		</planSQL>
+		<typeSQL>
+
+		</typeSQL>
+		<parameters>
+			<parameter name="ДатаКонцаПериода" type="Дата" value="2014-08-20T00:00:00"/>
+			<parameter name="ДатаНачалаПериода" type="Дата" value="2014-01-07T00:00:00"/>
+		</parameters>
+	</query>
+</querylist>
