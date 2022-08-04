@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<querylist>
+	<query name="Номенклатура">
+		<text>ВЫБРАТЬ
+	Контрагенты.Наименование КАК Наименование
+ИЗ
+	Справочник.Контрагенты КАК Контрагенты
+ГДЕ
+	Контрагенты.Город = &amp;Город
+</text>
+		<textSQL>
+
+		</textSQL>
+		<planSQL>
+
+		</planSQL>
+		<typeSQL>
+
+		</typeSQL>
+		<parameters>
+			<parameter name="Город" type="Строка" value="Смоленск"/>
+		</parameters>
+	</query>
+</querylist>

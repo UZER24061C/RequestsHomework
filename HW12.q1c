@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<querylist>
+	<query name="Номенклатура">
+		<text>ВЫБРАТЬ
+	Номенклатура.Ссылка КАК Ссылка
+ИЗ
+	Справочник.Номенклатура КАК Номенклатура
+ГДЕ
+	Номенклатура.ВидНоменклатуры = ЗНАЧЕНИЕ(Перечисление.ВидыНоменклатуры.Услуга)
+</text>
+		<textSQL>
+
+		</textSQL>
+		<planSQL>
+
+		</planSQL>
+		<typeSQL>
+
+		</typeSQL>
+		<parameters>
+			<parameter name="Банк" type="CatalogRef.Банки" value="f5231ee8-41c8-11e4-9463-001f160de72a"/>
+		</parameters>
+	</query>
+</querylist>

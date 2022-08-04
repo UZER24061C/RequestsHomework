@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<querylist>
+	<query name="Номенклатура">
+		<text>ВЫБРАТЬ
+	Номенклатура.Наименование КАК Наименование
+ИЗ
+	Справочник.Номенклатура КАК Номенклатура
+ГДЕ
+	Номенклатура.Наименование ПОДОБНО "%\%%" СПЕЦСИМВОЛ "\"
+</text>
+		<textSQL>
+
+		</textSQL>
+		<planSQL>
+
+		</planSQL>
+		<typeSQL>
+
+		</typeSQL>
+	</query>
+</querylist>

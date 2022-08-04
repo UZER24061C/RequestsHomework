@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<querylist>
+	<query name="Номенклатура">
+		<text>ВЫБРАТЬ
+	РасчетныеСчета.Банк КАК Банк,
+	РасчетныеСчета.Владелец КАК Контрагент,
+	РасчетныеСчета.Ссылка КАК РасчетнйСчет
+ИЗ
+	Справочник.РасчетныеСчета КАК РасчетныеСчета
+ГДЕ
+	РасчетныеСчета.Банк = &amp;Банк
+</text>
+		<textSQL>
+
+		</textSQL>
+		<planSQL>
+
+		</planSQL>
+		<typeSQL>
+
+		</typeSQL>
+		<parameters>
+			<parameter name="Банк" type="CatalogRef.Банки" value="f5231ee8-41c8-11e4-9463-001f160de72a"/>
+		</parameters>
+	</query>
+</querylist>

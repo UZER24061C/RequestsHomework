@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<querylist>
+	<query name="КОЛИЧЕСТВО(РАЗЛИЧНЫЕ ПродажиРегистратор) КАК Регис">
+		<text> Выбрать
+ 	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Продажи.Регистратор) КАК КоличествоЗаписей
+ 	ИЗ
+ 		РегистрНакопления.Продажи КАК Продажи
+</text>
+		<textSQL>
+
+		</textSQL>
+		<planSQL>
+
+		</planSQL>
+		<typeSQL>
+
+		</typeSQL>
+	</query>
+</querylist>

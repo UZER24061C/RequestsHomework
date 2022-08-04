@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<querylist>
+	<query name="ПоступлениеТоваровТовары">
+		<text>ВЫБРАТЬ
+	КОЛИЧЕСТВО(*) КАК КоличествоЗаписей
+ИЗ
+	РегистрНакопления.Продажи КАК Продажи
+</text>
+		<textSQL>
+
+		</textSQL>
+		<planSQL>
+
+		</planSQL>
+		<typeSQL>
+
+		</typeSQL>
+		<parameters>
+			<parameter name="Номенклатура" type="CatalogRef.Номенклатура" value="f5231ece-41c8-11e4-9463-001f160de72a"/>
+		</parameters>
+	</query>
+</querylist>

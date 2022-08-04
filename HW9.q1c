@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<querylist>
+	<query name="Номенклатура">
+		<text>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	РеализацияТоваровТовары.Ссылка.Контрагент КАК Контрагент
+ИЗ
+	Документ.РеализацияТоваров.Товары КАК РеализацияТоваровТовары
+ГДЕ
+	РеализацияТоваровТовары.Номенклатура = &amp;Номенклатура
+</text>
+		<textSQL>
+
+		</textSQL>
+		<planSQL>
+
+		</planSQL>
+		<typeSQL>
+
+		</typeSQL>
+		<parameters>
+			<parameter name="Номенклатура" type="CatalogRef.Номенклатура" value="f5231ee2-41c8-11e4-9463-001f160de72a"/>
+		</parameters>
+	</query>
+</querylist>
